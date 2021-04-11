@@ -5,7 +5,7 @@ This website is for printing the contents of the file.
 
 There are 4 files in the project. (file1.txt,file2.txt,file3.txt,file4.txt)
 
-To display contents of the file we have to type **localhost:5000/?file=<file_name>&start_line=<Starting_line_number>&end_line=<Ending_line_number>** .
+To display contents of the file we have to type ** http://127.0.0.1:5000/?file=<file_name>&start_line=<Starting_line_number>&end_line=<Ending_line_number>** .
 
 
 Here,
@@ -19,7 +19,7 @@ Here,
   
   
   ***Sample link:***
-    localhost:5000/?file=file1.txt&start_line=10&end_line=20
+     http://127.0.0.1:5000/?file=file1.txt&start_line=10&end_line=20
     
   ***Output:***
     ***File :- file1.txt***
