@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+	<title>InternTask</title>
+</head>
+<body style="background-color: lemonchiffon;">
+    <center>
+        <h1 style="box-shadow: 3px 5px;border: 1px solid;padding: 10px;">File :- {{fname}}</h1>
+    </center>
+        {% for f in file %}
+        <p style="margin-left: 35%;margin-right: 20%;">
+            {{f}}
+        </p>
+        {% endfor %}
+</body>
+</html>
